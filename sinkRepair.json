@@ -1,22 +1,53 @@
 {
-    "plumbers": [],
-    "completions": [],
-    "requests": [
-        {
-            "id": 1,
-            "description": "Aut sint voluptatem fugit eius quas molestiae modi.",
-            "address": "34445 Bianka Ports",
-            "budget": 400,
-            "neededBy": "2021-08-27"
-        },
-        {
-            "id": 2,
-            "description": "here is a second sink repair request",
-            "address": "657 Huntington Ridge Dr",
-            "budget": 600,
-            "neededBy": "2022-10-01"
-        }
-    ]
+  "plumbers": [
+    {
+      "id": 1,
+      "name": "Maude"
+    },
+    {
+      "id": 2,
+      "name": "Merle"
+    },
+    {
+      "id": 3,
+      "name": "Danny"
+    }
+  ],
+  "completions": [
+    {
+      "requestId": 1,
+      "plumberId": 2,
+      "date_created": "9/25/2022",
+      "id": 1
+    }
+  ],
+  "requests": [
+    {
+      "description": "test123",
+      "address": "test",
+      "budget": "500",
+      "neededBy": "2022-09-25",
+      "isComplete": true,
+      "plumberId": "2",
+      "id": 1
+    },
+    {
+      "description": "test",
+      "address": "test",
+      "budget": "500",
+      "neededBy": "2022-10-01",
+      "isComplete": false,
+      "plumberId": 0,
+      "id": 2
+    },
+    {
+      "description": "test",
+      "address": "test",
+      "budget": "500",
+      "neededBy": "2022-10-01",
+      "isComplete": false,
+      "plumberId": "1",
+      "id": 3
+    }
+  ]
 }
-
-
