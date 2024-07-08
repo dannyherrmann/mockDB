@@ -1,0 +1,89 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "fullName": "Dion Stoade",
+      "email": "dstoade0@cornell.edu",
+      "isStaff": true
+    },
+    {
+      "id": 2,
+      "fullName": "Windy Thorneloe",
+      "email": "wthorneloe1@usa.gov",
+      "isStaff": false
+    },
+    {
+      "id": 3,
+      "fullName": "Judy Jones",
+      "email": "judyjones@data.org",
+      "isStaff": false
+    },
+    {
+      "id": 4,
+      "name": "Helene Passfield",
+      "email": "hpassfield7@netvibes.com",
+      "isStaff": true
+    },
+    {
+      "email": "dannyherrmann91@gmail.com",
+      "fullName": "Danny Herrmann",
+      "isStaff": true,
+      "id": 5
+    }
+  ],
+  "likes": [
+    {
+      "userId": 2,
+      "eventId": 1,
+      "id": 1
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "comment": "I love this band!",
+      "userId": 3,
+      "eventId": 1
+    },
+    {
+      "comment": "wowww",
+      "userId": 2,
+      "eventId": 1,
+      "id": 2
+    },
+    {
+      "comment": "test",
+      "userId": 2,
+      "eventId": 1,
+      "id": 3
+    },
+    {
+      "comment": "sick",
+      "userId": 2,
+      "eventId": 1,
+      "id": 4
+    }
+  ],
+  "events": [
+    {
+      "eventName": "Weezer",
+      "date": "2022-12-05",
+      "time": "20:00",
+      "dateTime": "2022-12-05T20:00",
+      "price": 50,
+      "eventTypeId": 1,
+      "imageURL": "https://media.pitchfork.com/photos/5929c134eb335119a49ed510/16:9/w_1280,c_limit/84a9a51f.jpg",
+      "id": 1
+    }
+  ],
+  "eventTypes": [
+    {
+      "id": 1,
+      "name": "show"
+    },
+    {
+      "id": 2,
+      "name": "tour"
+    }
+  ]
+}

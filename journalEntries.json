@@ -1,0 +1,17 @@
+{
+  "moods": [
+    {
+      "id": 1,
+      "name": "Happy"
+    },
+    {
+      "id": 2,
+      "name": "Fine"
+    },
+    {
+      "id": 3,
+      "name": "Sad"
+    }
+  ],
+  "entries": []
+}

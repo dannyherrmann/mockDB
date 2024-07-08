@@ -15,9 +15,9 @@
   ],
   "completions": [
     {
-      "requestId": 1,
-      "plumberId": 2,
-      "date_created": "9/25/2022",
+      "requestId": 4,
+      "plumberId": 1,
+      "date_created": "9/28/2022",
       "id": 1
     }
   ],
@@ -27,17 +27,17 @@
       "address": "test",
       "budget": "500",
       "neededBy": "2022-09-25",
-      "isComplete": true,
+      "isComplete": false,
       "plumberId": "2",
       "id": 1
     },
     {
-      "description": "test",
+      "description": "test 1234",
       "address": "test",
       "budget": "500",
       "neededBy": "2022-10-01",
       "isComplete": false,
-      "plumberId": 0,
+      "plumberId": "1",
       "id": 2
     },
     {
@@ -48,6 +48,15 @@
       "isComplete": false,
       "plumberId": "1",
       "id": 3
+    },
+    {
+      "description": "here is a new request testing",
+      "address": "123 test way",
+      "budget": "500",
+      "neededBy": "2022-09-28",
+      "isComplete": true,
+      "plumberId": "1",
+      "id": 4
     }
   ]
 }
